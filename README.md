@@ -26,7 +26,7 @@ This script will:
 sudo ./monmode.sh
 ```
 
-## Script: `rstwlan.sh`
+## Script: `rstnet.sh`
 
 This script will:
 
