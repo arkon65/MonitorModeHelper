@@ -24,4 +24,28 @@ This script will:
 
 ```bash
 sudo ./monmode.sh
+```
 
+## Script: `rstwlan.sh`
+
+This script will:
+
+- Restart the **networking** service  
+- Restart the **NetworkManager** service  
+- Print the success or failure of each operation  
+
+**Dependencies:** `sudo`, `service`
+
+**Usage:**
+
+```bash
+sudo ./rstwlan.sh
+```
+
+## Example workflow
+
+```bash
+sudo ./monmode.sh       # Enable monitor mode
+# Perform network analysis tasks
+sudo ./rstwlan.sh       # Restore normal network operation
+```
