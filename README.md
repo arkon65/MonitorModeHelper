@@ -47,5 +47,5 @@ sudo ./rstwlan.sh
 ```bash
 sudo ./monmode.sh       # Enable monitor mode
 # Perform network analysis tasks
-sudo ./rstwlan.sh       # Restore normal network operation
+sudo ./rstnet.sh       # Restore normal network operation
 ```
