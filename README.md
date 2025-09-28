@@ -26,7 +26,7 @@ This script will:
 sudo ./monmode.sh
 ```
 
-## Script: `rstnet.sh`
+### 2. `rstnet.sh` – Restarts Networking Service and Manager
 
 This script will:
 
