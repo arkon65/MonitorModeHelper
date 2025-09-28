@@ -1,24 +1,27 @@
-A lightweight set of scripts for Linux systems that help you switch supported WiFi cards into monitor mode and easily revert them back to managed mode.
+# Linux Monitor Mode & Network Restore Scripts
 
-Features
+A lightweight set of Bash scripts to quickly switch your wireless interface into **monitor mode** and restore it back to normal networking on Linux systems.  
 
- - Enable monitor mode on supported WiFi interfaces.
+These scripts simplify enabling monitor mode for tasks such as packet sniffing, wireless security testing, or network analysis.
 
- - Restore your interface to managed mode with a simple restart script.
+---
 
- - Clear, step-by-step instructions included in each script.
+## Scripts
 
-Usage
+### 1. `monmode.sh` – Enable Monitor Mode
 
- - Run the monitor mode script to put your WiFi card into monitor mode.
+This script will:
 
- - Use the network restart script to switch back to managed mode when finished.
+- Bring down your wireless interface  
+- Kill processes that may interfere with monitor mode  
+- Set the interface to monitor mode  
+- Bring the interface back up  
+- Print the status of each command  
 
+**Dependencies:** `airmon-ng`, `iwconfig`, `ifconfig`  
 
-Notes
+**Usage:**
 
- - Works on Linux systems with compatible WiFi chipsets.
+```bash
+sudo ./monmode.sh
 
- - May require root privileges (sudo).
-
-Thank you <3
