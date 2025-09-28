@@ -39,7 +39,7 @@ This script will:
 **Usage:**
 
 ```bash
-sudo ./rstwlan.sh
+sudo ./rstnet.sh
 ```
 
 ## Example workflow
